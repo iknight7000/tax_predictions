@@ -1,0 +1,592 @@
+
+_dta:
+  1.  NBER URL: http://www.nber.org/data/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi.html
+  2.  Source Page: https://www.irs.gov/uac/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi
+  3.  Source File URL: https://www.irs.gov/pub/irs-soi/16zpallagi.csv
+  4.  Source File (CSV|ZIP): 16zpallagi.csv
+  5.  [1] For complete individual income tax tabulations at the State level,
+  6.  see the historic table posted to Tax Stats at http://www.irs.gov/uac/SOI-Tax-Stats---Historic-Table-2.
+
+statefips:
+  1.  The State Federal Information Processing System (FIPS) code
+
+state:
+  1.  The State associated with the ZIP code. Two-digit State abbreviation code
+
+zipcode:
+  1.  5-digit Zip code
+
+agi_stub:
+  1.  Size of adjusted gross income
+
+n1:
+  1.  Number of returns
+
+mars1:
+  1.  Number of single returns - Filing status is single
+
+mars2:
+  1.  Number of joint returns - Filing status is married filing jointly
+
+mars4:
+  1.  Number of head of household returns - Filing status is head of household
+
+prep:
+  1.  Number of returns with paid preparer's signature
+
+n2:
+  1.  Number of exemptions 1040:6d
+
+numdep:
+  1.  Number of dependents 1040:6c
+
+total_vita:
+  1.  Total number of volunteer prepared returns [3]
+  2.  [3] The 'Number of volunteer prepared returns' shows counts of returns prepared
+  3.  by IRS-certified volunteers to taxpayers with limited income, persons with disabilities,
+  4.  limited English speaking taxpayers, current and former members of the military,
+  5.  and taxpayers who are 60 years of age and older.
+
+vita:
+  1.  Number of volunteer income tax assistance (VITA) prepared returns [3]
+  2.  [3] The 'Number of volunteer prepared returns' shows counts of returns prepared
+  3.  by IRS-certified volunteers to taxpayers with limited income, persons with disabilities,
+  4.  limited English speaking taxpayers, current and former members of the military,
+  5.  and taxpayers who are 60 years of age and older.
+
+tce:
+  1.  Number of tax counseling for the elderly (TCE) prepared returns [3]
+  2.  [3] The 'Number of volunteer prepared returns' shows counts of returns prepared
+  3.  by IRS-certified volunteers to taxpayers with limited income, persons with disabilities,
+  4.  limited English speaking taxpayers, current and former members of the military,
+  5.  and taxpayers who are 60 years of age and older.
+
+a00100:
+  1.  Adjust gross income (AGI) [2] 1040:37 / 1040A:21 / 1040EZ:4
+  2.  [2] Does not include returns with adjusted gross deficit.
+
+n02650:
+  1.  Number of returns with total income 1040:22 / 1040A:15 / 1040EZ:4
+
+a02650:
+  1.  Total income amount 1040:22 / 1040A:15 / 1040EZ:4
+
+n00200:
+  1.  Number of returns with salaries and wages 1040:7 / 1040A:7 / 1040EZ:1
+
+a00200:
+  1.  Salaries and wages amount 1040:7 / 1040A:7 / 1040EZ:1
+
+n00300:
+  1.  Number of returns with taxable interest 1040:8a / 1040A:8a / 1040EZ:2
+
+a00300:
+  1.  Taxable interest amount 1040:8a / 1040A:8a / 1040EZ:2
+
+n00600:
+  1.  Number of returns with ordinary dividends 1040:9a / 1040A:9a
+
+a00600:
+  1.  Ordinary dividends amount 1040:9a / 1040A:9a
+
+n00650:
+  1.  Number of returns with qualified dividends 1040:9b / 1040A:9b
+
+a00650:
+  1.  Qualified dividends amount [4] 1040:9b / 1040A:9b
+
+n00700:
+  1.  Number of returns with state and local income tax refunds 1040:10
+
+a00700:
+  1.  State and local income tax refunds amount 1040:10
+
+n00900:
+  1.  Number of returns with business or professional net income (less loss) 1040:12
+
+a00900:
+  1.  Business or professional net income (less loss) amount 1040:12
+
+n01000:
+  1.  Number of returns with net capital gain (less loss) 1040:13 1040A:10
+
+a01000:
+  1.  Net capital gain (less loss) amount 1040:13 1040A:10
+
+n01400:
+  1.  Number of returns with taxable individual retirement arrangements distributions 1040:15b / 1040:11b
+
+a01400:
+  1.  Taxable individual retirement arrangements distributions amount 1040:15b / 1040:11b
+
+n01700:
+  1.  Number of returns with taxable pensions and annuities 1040:16b / 1040A:12b
+
+a01700:
+  1.  Taxable pensions and annuities amount 1040:16b / 1040A:12b
+
+schf:
+  1.  Number of farm returns 1040:18
+
+n02300:
+  1.  Number of returns with unemployment compensation 1040:19 / 1040A:13 / 1040EZ:3
+
+a02300:
+  1.  Unemployment compensation amount [5] 1040:19 / 1040A:13 / 1040EZ:3
+  2.  [5] Includes the Alaskan permanent fund, reported by residents of Alaska on Forms 1040A and 1040EZ's.
+  3.  This fund only applies to statistics in the totals, and the state of Alaska.
+
+n02500:
+  1.  Number of returns with taxable Social Security benefits 1040:20b / 1040A:14b
+
+a02500:
+  1.  Taxable Social Security benefits amount 1040:20b / 1040A:14b
+
+n26270:
+  1.  Number of returns with partnership/S-corp net income (less loss) Schedule E:32
+
+a26270:
+  1.  Partnership/S-corp net income (less loss) amount Schedule E:32
+
+n02900:
+  1.  Number of returns with total statutory adjustments 1040:36 / 1040A:20
+
+a02900:
+  1.  Total statutory adjustments amount 1040:36 / 1040A:20
+
+n03220:
+  1.  Number of returns with educator expenses 1040:23 / 1040A:16
+
+a03220:
+  1.  Educator expenses amount 1040:23 / 1040A:16
+
+n03300:
+  1.  Number of returns with self-employment retirement plans 1040:28
+
+a03300:
+  1.  Self-employment retirement plans amount 1040:28
+
+n03270:
+  1.  Number of returns with self-employment health insurance deduction 1040:29
+
+a03270:
+  1.  Self-employment health insurance deduction amount 1040:29
+
+n03150:
+  1.  Number of returns with IRA payments 1040:32 / 1040A:17
+
+a03150:
+  1.  IRA payments amount 1040:32 / 1040A:17
+
+n03210:
+  1.  Number of returns with student loan interest deduction 1040:33 / 1040A:18
+
+a03210:
+  1.  Student loan interest deduction amount 1040:33 / 1040A:18
+
+n03230:
+  1.  Number of returns with tuition and fees deduction 1040:34 / 1040A:19
+
+a03230:
+  1.  Tuition and fees deduction amount 1040:34 / 1040A:19
+
+n03240:
+  1.  Returns with domestic production activities deduction 1040:35
+
+a03240:
+  1.  Domestic production activities deduction amount 1040:35
+
+n04470:
+  1.  Number of returns with itemized deductions 1040:40
+
+a04470:
+  1.  Total itemized deductions amount 1040:40
+
+a00101:
+  1.  Amount of AGI for itemized returns 1040:37
+
+n18425:
+  1.  Number of returns with State and local income taxes Schedule A:5a
+
+a18425:
+  1.  State and local income taxes amount Schedule A:5a
+
+n18450:
+  1.  Number of returns with State and local general sales tax Schedule A:5b
+
+a18450:
+  1.  State and local general sales tax amount Schedule A:5b
+
+n18500:
+  1.  Number of returns with real estate taxes Schedule A:6
+
+a18500:
+  1.  Real estate taxes amount Schedule A:6
+
+n18300:
+  1.  Number of returns with taxes paid Schedule A:9
+
+a18300:
+  1.  Taxes paid amount Schedule A:9
+
+n19300:
+  1.  Number of returns with mortgage interest paid Schedule A:10
+
+a19300:
+  1.  Mortgage interest paid amount Schedule A:10
+
+n19700:
+  1.  Number of returns with contributions Schedule A:19
+
+a19700:
+  1.  Contributions amount Schedule A:19
+
+n04800:
+  1.  Number of returns with taxable income 1040:43 / 1040A:27 / 1040EZ:6
+
+a04800:
+  1.  Taxable income amount 1040:43 / 1040A:27 / 1040EZ:6
+
+n05800:
+  1.  Number of returns with income tax before credits 1040:47 / 1040A:30 / 1040EZ:10
+
+a05800:
+  1.  Income tax before credits amount 1040:47 / 1040A:30 / 1040EZ:10
+
+n09600:
+  1.  Number of returns with alternative minimum tax 1040:45
+
+a09600:
+  1.  Alternative minimum tax amount 1040:45
+
+n05780:
+  1.  Number of returns with excess advance premium tax credit repayment 1040:46/ 1040A:29
+
+a05780:
+  1.  Excess advance premium tax credit repayment amount 1040:46/ 1040A:29
+
+n07100:
+  1.  Number of returns with total tax credits 1040:55 / 1040A:36
+
+a07100:
+  1.  Total tax credits amount 1040:55 / 1040A:36
+
+n07300:
+  1.  Number of returns with foreign tax credit 1040:48
+
+a07300:
+  1.  Foreign tax credit amount 1040:48
+
+n07180:
+  1.  Number of returns with child and dependent care credit 1040:49 / 1040A:31
+
+a07180:
+  1.  Child and dependent care credit amount 1040:49 / 1040A:31
+
+n07230:
+  1.  Number of returns with nonrefundable education credit 1040:50 / 1040A:33
+
+a07230:
+  1.  Nonrefundable education credit amount 1040:50 / 1040A:33
+
+n07240:
+  1.  Number of returns with retirement savings contribution credit 1040:51 / 1040A:34
+
+a07240:
+  1.  Retirement savings contribution credit amount 1040:51 / 1040A:34
+
+n07220:
+  1.  Number of returns with child tax credit 1040:52 / 1040A:35
+
+a07220:
+  1.  Child tax credit amount 1040:52 / 1040A:35
+
+n07260:
+  1.  Number of returns with residential energy tax credit 1040:53
+
+a07260:
+  1.  Residential energy tax credit amount 1040:53
+
+n09400:
+  1.  Number of returns with self-employment tax 1040:57
+
+a09400:
+  1.  Self-employment tax amount 1040:57
+
+n85770:
+  1.  Number of returns with total premium tax credit 8962:24
+
+a85770:
+  1.  Total premium tax credit amount 8962:24
+
+n85775:
+  1.  Number of returns with advance premium tax credit 8962:25
+
+a85775:
+  1.  Advance premium tax credit amount 8962:25
+
+n09750:
+  1.  Number of returns with health care individual responsibility payment 1040:61 / 1040A:38 / 1040EZ:11
+
+a09750:
+  1.  Health care individual responsibility payment amount 1040:61 / 1040A:38 / 1040EZ:11
+
+n10600:
+  1.  Number of returns with total tax payments 1040:74 / 1040A:46 / 1040EZ:9
+
+a10600:
+  1.  Total tax payments amount 1040:74 / 1040A:46 / 1040EZ:9
+
+n59660:
+  1.  Number of returns with earned income credit 1040:66a / 1040A:42a / 1040EZ:8b
+
+a59660:
+  1.  Earned income credit amount [6] 1040:66a / 1040A:42a / 1040EZ:8b
+  2.  [6] Earned income credit includes both the refundable and non-refundable portions.
+  3.  The non-refundable portion could reduce income tax and certain related taxes to zero.
+  4.  The earned income credit amounts in excess of total tax liability, or amounts when there was no tax liability at all, were
+      refundable.
+  5.  See footnote 6 below for explanation of the refundable portion of the earned income credit.
+
+n59720:
+  1.  Number of returns with excess earned income credit 1040:66a / 1040A:42a / 1040EZ:8b
+
+a59720:
+  1.  Excess earned income credit (refundable) amount [7] 1040:66a / 1040A:42a / 1040EZ:8b
+  2.  [7] The refundable portion of the earned income credit equals total income tax minus the earned income credit.
+  3.  If the result is negative, this amount is considered the refundable portion.
+  4.  No other refundable credits were taken into account for this calculation.
+
+n11070:
+  1.  Number of returns with additional child tax credit 1040:67 / 1040A:43
+
+a11070:
+  1.  Additional child tax credit amount 1040:67 / 1040A:43
+
+n10960:
+  1.  Number of returns with refundable education credit 1040:68 / 1040A:44
+
+a10960:
+  1.  Refundable education credit amount 1040:68 / 1040A:44
+
+n11560:
+  1.  Number of returns with net premium tax credit 1040:69 / 1040A:45
+
+a11560:
+  1.  Net premium tax credit amount 1040:69 / 1040A:45
+
+n06500:
+  1.  Number of returns with income tax 1040:56 / 1040A:37 / 1040EZ:10
+
+a06500:
+  1.  Income tax amount [8] 1040:56 / 1040A:37 / 1040EZ:10
+  2.  [4] 'Qualified dividends' are ordinary dividends received in tax years beginning after 2002
+  3.  that meet certain conditions and receive preferential tax rates.
+  4.  The maximum qualified dividends tax rate is 15%.
+  5.  [8] Income tax reflects the amount reported on Form 1040 line 56. It also includes data from Form 1040A and 1040EZ filers.
+
+n10300:
+  1.  Number of returns with tax liability 1040:63 / 1040A:39 / 1040EZ: 10
+
+a10300:
+  1.  Total tax liability amount [9] 1040:63 / 1040A:39 / 1040EZ: 10
+  2.  [9] 'Total tax liability' differs from 'Income tax', in that 'Total tax liability'
+  3.  includes the taxes from recapture of certain prior-year credits, tax applicable to individual retirement arrangements (IRA's),
+  4.  social security taxes on self-employment income and on certain tip income, advanced earned income payments,
+  5.  household employment taxes, and certain other taxes listed in the Form 1040 instructions.
+
+n85530:
+  1.  Number of returns with additional Medicare tax 1040:62a
+
+a85530:
+  1.  Additional Medicare tax amount 1040:62a
+
+n85300:
+  1.  Number of returns with net investment income tax 1040:62b
+
+a85300:
+  1.  Net investment income tax amount 1040:62b
+
+n11901:
+  1.  Number of returns with tax due at time of filing 1040:78 / 1040A:50 / 1040EZ:14
+
+a11901:
+  1.  Tax due at time of filing amount [10] 1040:78 / 1040A:50 / 1040EZ:14
+  2.  [10] Reflects payments to or withholdings made to 'Total tax liability'.
+  3.  This is the amount the tax filer owes when the income tax return is filed.
+
+n11902:
+  1.  Number of returns with overpayments refunded 1040:75 / 1040A:47 / 1040EZ:13a
+
+a11902:
+  1.  Overpayments refunded amount [11] 1040:75 / 1040A:47 / 1040EZ:13a
+  2.  [11] The amount of overpayments the tax filer requested to have refunded.
+
+year:
+  1.  Year
+
+  obs:       179,796                          
+ vars:           148                          21 Sep 2018 00:55
+ size:   105,000,864                          (_dta has notes)
+-------------------------------------------------------------------------------------------------------------------------------------------
+              storage   display    value
+variable name   type    format     label      variable label
+-------------------------------------------------------------------------------------------------------------------------------------------
+statefips       str2    %9s                 * The State Federal Information Processing System (FIPS) code
+state           str2    %9s                 * The State associated with the ZIP code
+zipcode         str5    %9s                 * 5-digit Zip code
+agi_stub        byte    %23.0g     agi_stub * Size of adjusted gross income
+n1              long    %12.0g              * Number of returns
+mars1           long    %12.0g              * Number of single returns
+mars2           long    %12.0g              * Number of joint returns
+mars4           long    %12.0g              * Number of head of household returns
+prep            long    %12.0g              * Number of returns with paid preparer's signature
+n2              long    %12.0g              * Number of exemptions 1040:6d
+numdep          long    %12.0g              * Number of dependents 1040:6c
+total_vita      long    %12.0g              * Total number of volunteer prepared returns [3]
+vita            long    %8.0g               * Number of volunteer income tax assistance (VITA) prepared returns [3]
+tce             long    %8.0g               * Number of tax counseling for the elderly (TCE) prepared returns [3]
+vita_eic        long    %8.0g                 VITA_EIC
+ral             long    %8.0g                 RAL
+rac             long    %12.0g                RAC
+elderly         long    %12.0g                ELDERLY
+a00100          long    %12.0g              * Adjust gross income (AGI) [2] 1040:37 / 1040A:21 / 1040EZ:4
+n02650          long    %12.0g              * Number of returns with total income 1040:22 / 1040A:15 / 1040EZ:4
+a02650          long    %12.0g              * Total income amount 1040:22 / 1040A:15 / 1040EZ:4
+n00200          long    %12.0g              * Number of returns with salaries and wages 1040:7 / 1040A:7 / 1040EZ:1
+a00200          long    %12.0g              * Salaries and wages amount 1040:7 / 1040A:7 / 1040EZ:1
+n00300          long    %12.0g              * Number of returns with taxable interest 1040:8a / 1040A:8a / 1040EZ:2
+a00300          long    %12.0g              * Taxable interest amount 1040:8a / 1040A:8a / 1040EZ:2
+n00600          long    %12.0g              * Number of returns with ordinary dividends 1040:9a / 1040A:9a
+a00600          long    %12.0g              * Ordinary dividends amount 1040:9a / 1040A:9a
+n00650          long    %12.0g              * Number of returns with qualified dividends 1040:9b / 1040A:9b
+a00650          long    %12.0g              * Qualified dividends amount [4] 1040:9b / 1040A:9b
+n00700          long    %12.0g              * Number of returns with state and local income tax refunds 1040:10
+a00700          long    %12.0g              * State and local income tax refunds amount 1040:10
+n00900          long    %12.0g              * Number of returns with business or professional net income (less loss) 1040:12
+a00900          long    %12.0g              * Business or professional net income (less loss) amount 1040:12
+n01000          long    %12.0g              * Number of returns with net capital gain (less loss) 1040:13 1040A:10
+a01000          long    %12.0g              * Net capital gain (less loss) amount 1040:13 1040A:10
+n01400          long    %12.0g              * Number of returns with taxable individual retirement arrangements distributions
+a01400          long    %12.0g              * Taxable individual retirement arrangements distributions amount 1040:15b / 1040:
+n01700          long    %12.0g              * Number of returns with taxable pensions and annuities 1040:16b / 1040A:12b
+a01700          long    %12.0g              * Taxable pensions and annuities amount 1040:16b / 1040A:12b
+schf            long    %8.0g               * Number of farm returns 1040:18
+n02300          long    %12.0g              * Number of returns with unemployment compensation 1040:19 / 1040A:13 / 1040EZ:3
+a02300          long    %12.0g              * Unemployment compensation amount [5] 1040:19 / 1040A:13 / 1040EZ:3
+n02500          long    %12.0g              * Number of returns with taxable Social Security benefits 1040:20b / 1040A:14b
+a02500          long    %12.0g              * Taxable Social Security benefits amount 1040:20b / 1040A:14b
+n26270          long    %12.0g              * Number of returns with partnership/S-corp net income (less loss) Schedule E:32
+a26270          long    %12.0g              * Partnership/S-corp net income (less loss) amount Schedule E:32
+n02900          long    %12.0g              * Number of returns with total statutory adjustments 1040:36 / 1040A:20
+a02900          long    %12.0g              * Total statutory adjustments amount 1040:36 / 1040A:20
+n03220          long    %8.0g               * Number of returns with educator expenses 1040:23 / 1040A:16
+a03220          long    %8.0g               * Educator expenses amount 1040:23 / 1040A:16
+n03300          long    %8.0g               * Number of returns with self-employment retirement plans 1040:28
+a03300          long    %12.0g              * Self-employment retirement plans amount 1040:28
+n03270          long    %8.0g               * Number of returns with self-employment health insurance deduction 1040:29
+a03270          long    %12.0g              * Self-employment health insurance deduction amount 1040:29
+n03150          long    %8.0g               * Number of returns with IRA payments 1040:32 / 1040A:17
+a03150          long    %12.0g              * IRA payments amount 1040:32 / 1040A:17
+n03210          long    %12.0g              * Number of returns with student loan interest deduction 1040:33 / 1040A:18
+a03210          long    %12.0g              * Student loan interest deduction amount 1040:33 / 1040A:18
+n03230          long    %8.0g               * Number of returns with tuition and fees deduction 1040:34 / 1040A:19
+a03230          long    %8.0g               * Tuition and fees deduction amount 1040:34 / 1040A:19
+n03240          int     %8.0g               * Returns with domestic production activities deduction 1040:35
+a03240          long    %12.0g              * Domestic production activities deduction amount 1040:35
+n04470          long    %12.0g              * Number of returns with itemized deductions 1040:40
+a04470          long    %12.0g              * Total itemized deductions amount 1040:40
+a00101          long    %12.0g              * Amount of AGI for itemized returns 1040:37
+n17000          long    %12.0g                N17000
+a17000          long    %12.0g                A17000
+n18425          long    %12.0g              * Number of returns with State and local income taxes Schedule A:5a
+a18425          long    %12.0g              * State and local income taxes amount Schedule A:5a
+n18450          long    %12.0g              * Number of returns with State and local general sales tax Schedule A:5b
+a18450          long    %12.0g              * State and local general sales tax amount Schedule A:5b
+n18500          long    %12.0g              * Number of returns with real estate taxes Schedule A:6
+a18500          long    %12.0g              * Real estate taxes amount Schedule A:6
+n18800          long    %12.0g                N18800
+a18800          long    %12.0g                A18800
+n18300          long    %12.0g              * Number of returns with taxes paid Schedule A:9
+a18300          long    %12.0g              * Taxes paid amount Schedule A:9
+n19300          long    %12.0g              * Number of returns with mortgage interest paid Schedule A:10
+a19300          long    %12.0g              * Mortgage interest paid amount Schedule A:10
+n19500          long    %8.0g                 N19500
+a19500          long    %8.0g                 A19500
+n19530          long    %8.0g                 N19530
+a19530          long    %8.0g                 A19530
+n19550          long    %12.0g                N19550
+a19550          long    %12.0g                A19550
+n19570          long    %8.0g                 N19570
+a19570          long    %12.0g                A19570
+n19700          long    %12.0g              * Number of returns with contributions Schedule A:19
+a19700          long    %12.0g              * Contributions amount Schedule A:19
+n20800          long    %12.0g                N20800
+a20800          long    %12.0g                A20800
+n21020          long    %8.0g                 
+a21020          long    %12.0g                
+n04800          long    %12.0g              * Number of returns with taxable income 1040:43 / 1040A:27 / 1040EZ:6
+a04800          long    %12.0g              * Taxable income amount 1040:43 / 1040A:27 / 1040EZ:6
+n05800          long    %12.0g              * Number of returns with income tax before credits 1040:47 / 1040A:30 / 1040EZ:10
+a05800          long    %12.0g              * Income tax before credits amount 1040:47 / 1040A:30 / 1040EZ:10
+n09600          long    %12.0g              * Number of returns with alternative minimum tax 1040:45
+a09600          long    %12.0g              * Alternative minimum tax amount 1040:45
+n05780          long    %8.0g               * Number of returns with excess advance premium tax credit repayment 1040:46/ 1040
+a05780          long    %8.0g               * Excess advance premium tax credit repayment amount 1040:46/ 1040A:29
+n07100          long    %12.0g              * Number of returns with total tax credits 1040:55 / 1040A:36
+a07100          long    %12.0g              * Total tax credits amount 1040:55 / 1040A:36
+n07300          long    %12.0g              * Number of returns with foreign tax credit 1040:48
+a07300          long    %12.0g              * Foreign tax credit amount 1040:48
+n07180          long    %12.0g              * Number of returns with child and dependent care credit 1040:49 / 1040A:31
+a07180          long    %8.0g               * Child and dependent care credit amount 1040:49 / 1040A:31
+n07230          long    %12.0g              * Number of returns with nonrefundable education credit 1040:50 / 1040A:33
+a07230          long    %12.0g              * Nonrefundable education credit amount 1040:50 / 1040A:33
+n07240          long    %12.0g              * Number of returns with retirement savings contribution credit 1040:51 / 1040A:34
+a07240          long    %8.0g               * Retirement savings contribution credit amount 1040:51 / 1040A:34
+n07220          long    %12.0g              * Number of returns with child tax credit 1040:52 / 1040A:35
+a07220          long    %12.0g              * Child tax credit amount 1040:52 / 1040A:35
+n07260          long    %8.0g               * Number of returns with residential energy tax credit 1040:53
+a07260          long    %8.0g               * Residential energy tax credit amount 1040:53
+n09400          long    %12.0g              * Number of returns with self-employment tax 1040:57
+a09400          long    %12.0g              * Self-employment tax amount 1040:57
+n85770          long    %12.0g              * Number of returns with total premium tax credit 8962:24
+a85770          long    %12.0g              * Total premium tax credit amount 8962:24
+n85775          long    %12.0g              * Number of returns with advance premium tax credit 8962:25
+a85775          long    %12.0g              * Advance premium tax credit amount 8962:25
+n09750          long    %12.0g              * Number of returns with health care individual responsibility payment 1040:61 / 1
+a09750          long    %12.0g              * Health care individual responsibility payment amount 1040:61 / 1040A:38 / 1040EZ
+n10600          long    %12.0g              * Number of returns with total tax payments 1040:74 / 1040A:46 / 1040EZ:9
+a10600          long    %12.0g              * Total tax payments amount 1040:74 / 1040A:46 / 1040EZ:9
+n59660          long    %12.0g              * Number of returns with earned income credit 1040:66a / 1040A:42a / 1040EZ:8b
+a59660          long    %12.0g              * Earned income credit amount [6] 1040:66a / 1040A:42a / 1040EZ:8b
+n59720          long    %12.0g              * Number of returns with excess earned income credit 1040:66a / 1040A:42a / 1040EZ
+a59720          long    %12.0g              * Excess earned income credit (refundable) amount [7] 1040:66a / 1040A:42a / 1040
+n11070          long    %12.0g              * Number of returns with additional child tax credit 1040:67 / 1040A:43
+a11070          long    %12.0g              * Additional child tax credit amount 1040:67 / 1040A:43
+n10960          long    %12.0g              * Number of returns with refundable education credit 1040:68 / 1040A:44
+a10960          long    %12.0g              * Refundable education credit amount 1040:68 / 1040A:44
+n11560          long    %8.0g               * Number of returns with net premium tax credit 1040:69 / 1040A:45
+a11560          long    %8.0g               * Net premium tax credit amount 1040:69 / 1040A:45
+n06500          long    %12.0g              * Number of returns with income tax 1040:56 / 1040A:37 / 1040EZ:10
+a06500          long    %12.0g              * Income tax amount [8] 1040:56 / 1040A:37 / 1040EZ:10
+n10300          long    %12.0g              * Number of returns with tax liability 1040:63 / 1040A:39 / 1040EZ: 10
+a10300          long    %12.0g              * Total tax liability amount [9] 1040:63 / 1040A:39 / 1040EZ: 10
+n85530          long    %12.0g              * Number of returns with additional Medicare tax 1040:62a
+a85530          long    %12.0g              * Additional Medicare tax amount 1040:62a
+n85300          long    %12.0g              * Number of returns with net investment income tax 1040:62b
+a85300          long    %12.0g              * Net investment income tax amount 1040:62b
+n11901          long    %12.0g              * Number of returns with tax due at time of filing 1040:78 / 1040A:50 / 1040EZ:14
+a11901          long    %12.0g              * Tax due at time of filing amount [10] 1040:78 / 1040A:50 / 1040EZ:14
+n11902          long    %12.0g              * Number of returns with overpayments refunded 1040:75 / 1040A:47 / 1040EZ:13a
+a11902          long    %12.0g              * Overpayments refunded amount [11] 1040:75 / 1040A:47 / 1040EZ:13a
+year            float   %9.0g               * Year
+                                            * indicated variables have notes
+-------------------------------------------------------------------------------------------------------------------------------------------
+Sorted by: zipcode  statefips  agi_stub  year
+agi_stub:
+           1 $1 under $25,000 
+           2 $25,000 under $50,000 
+           3 $50,000 under $75,000 
+           4 $75,000 under $100,000 
+           5 $100,000 under $200,000 
+           6 $200,000 or more 
